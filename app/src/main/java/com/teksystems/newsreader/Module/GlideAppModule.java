@@ -1,7 +1,7 @@
 package com.teksystems.newsreader.Module;
 
 /**
- * Created by archakraborty on 05-03-2018.
+ * Created by Arghadeep on 05-03-2018.
  */
 
 import com.bumptech.glide.annotation.GlideModule;

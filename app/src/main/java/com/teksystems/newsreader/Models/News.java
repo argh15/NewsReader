@@ -1,53 +1,56 @@
 package com.teksystems.newsreader.Models;
 
 /**
- * Created by archakraborty on 05-03-2018.
+ * Created by Arghadeep on 05-03-2018.
  */
 
 public class News {
-    String title;
-    String author;
-    String description;
-    String url;
-    String urlToImage;
-    String publishedAt;
-    String sourceName;
+  String title;
+  String author;
+  String description;
+  String url;
+  String urlToImage;
+  String publishedAt;
+  String sourceName;
 
-    public News(String title, String author, String description, String url, String urlToImage, String publishedAt, String sourceName) {
-        this.title = title;
-        this.author = author;
-        this.description = description;
-        this.url = url;
-        this.urlToImage = urlToImage;
-        this.publishedAt = publishedAt;
-        this.sourceName = sourceName;
-    }
+  public News() {
+  }
 
-    public String getTitle() {
-        return title;
-    }
+  public News(String title, String author, String description, String url, String urlToImage, String publishedAt, String sourceName) {
+    this.title = title;
+    this.author = author;
+    this.description = description;
+    this.url = url;
+    this.urlToImage = urlToImage;
+    this.publishedAt = publishedAt;
+    this.sourceName = sourceName;
+  }
 
-    public String getAuthor() {
-        return author;
-    }
+  public String getTitle() {
+    return title;
+  }
 
-    public String getDescription() {
-        return description;
-    }
+  public String getAuthor() {
+    return author;
+  }
 
-    public String getUrl() {
-        return url;
-    }
+  public String getDescription() {
+    return description;
+  }
 
-    public String getUrlToImage() {
-        return urlToImage;
-    }
+  public String getUrl() {
+    return url;
+  }
 
-    public String getPublishedAt() {
-        return publishedAt;
-    }
+  public String getUrlToImage() {
+    return urlToImage;
+  }
 
-    public String getSourceName() {
-        return sourceName;
-    }
+  public String getPublishedAt() {
+    return publishedAt;
+  }
+
+  public String getSourceName() {
+    return sourceName;
+  }
 }

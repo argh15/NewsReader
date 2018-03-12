@@ -7,7 +7,8 @@
         android:id="@+id/newsHeaderImage"
         android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:background="@android:color/transparent" />
+        android:background="@android:color/transparent"
+      android:scaleType="centerCrop"/>
 
     <android.webkit.WebView
         android:id="@+id/newsWebView"
